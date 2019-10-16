@@ -1,0 +1,15 @@
+.vegeta-comp {
+  height: 200px;
+  background-color: lightcoral;
+  padding: 3rem;
+}
+
+h3 {
+  margin: 0 auto;
+  padding-bottom: 3rem;
+}
+
+.pedir-mensaje {
+  padding-top: 3rem;
+  float: right;
+}
