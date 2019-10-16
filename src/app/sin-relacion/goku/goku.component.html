@@ -1,0 +1,16 @@
+<div class="goku-comp">
+  <h3>Goku Component</h3>
+  <form>
+    <div class="form-group">
+      <label>Mensaje para Vegeta:</label>
+      <input class="form-control" #msg type="text" />
+    </div>
+    <button class="btn btn-primary" type="button" (click)="enviarMensaje(msg.value)">
+      Enviar Mensaje
+    </button>
+  </form>
+  <div class="pedir-mensaje">
+    <button class="btn btn-info" (click)="verMensaje()">Ver mensaje de Vegeta</button>
+    <h3 *ngIf="mensajeVegeta">{{ mensajeVegeta }}</h3>
+  </div>
+</div>
