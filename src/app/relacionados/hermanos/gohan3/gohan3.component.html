@@ -1,0 +1,10 @@
+<div class="gohanComp">
+  <div class="row">
+    <h3 class="p1-3 titulo">Gohan Comp</h3>
+  </div>
+  Escribe el mensaje para Goten
+  <input #msg name="msg" type="text" class="form-control" />
+  <button type="button" class="mt-2 btn btn-success" (click)="enviarMensaje(msg.value)">
+    Enviar mensaje
+  </button>
+</div>

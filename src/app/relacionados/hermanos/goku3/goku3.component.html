@@ -1,0 +1,14 @@
+<div class="container">
+  <div class="row">
+    <h3 class="titulo">Goku Comp</h3>
+  </div>
+  <div class="row">
+    <div class="col-5">
+      <app-gohan3 class="gohanComp" (mensajeDesdeGohan)="mensajeParaGoten($event)"></app-gohan3>
+    </div>
+    <div class="col-2"></div>
+    <div class="col-5">
+      <app-goten3 class="gotenComp" [mensajeGoten]="enviarAGoten"></app-goten3>
+    </div>
+  </div>
+</div>
